@@ -1,0 +1,16 @@
+molecule mol {
+0 3
+C
+symmetry c1
+}
+
+set {
+ scf_type pk
+ basis = C_9S4P
+ print =1
+}
+
+basis {
+assign C_9S4P
+[C_9S4P]
+spherical
